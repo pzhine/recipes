@@ -1,0 +1,60 @@
+### place-content
+
+Use `place-content-center` to pack items in the center of the block axis:
+
+<div class="font-mono text-white text-sm font-bold leading-6 bg-sky-600 rounded-lg">
+  <div class="grid grid-cols-[repeat(2,56px)] place-content-center h-56 gap-4">
+    <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-sky-500">01</div>
+    <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-sky-500">02</div>
+    <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-sky-500">03</div>
+    <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-sky-500">04</div>
+  </div>
+</div>
+
+```html
+<div class="bg-sky-600 rounded-lg ...">
+  <div class="grid grid-cols-2 gap-4 place-content-center h-48 ...">
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+    <div>04</div>
+  </div>
+</div>
+```
+
+### place-items
+Use `place-items-center` to place grid items on the center of their grid areas on both axes:
+
+<div class="font-mono text-white text-sm font-bold leading-6">
+  <div class="grid grid-cols-3 h-56 gap-4">
+    <div class="bg-pink-800 grid place-items-center rounded-lg">
+      <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-pink-500">01</div>
+    </div>
+    <div class="bg-pink-800 grid place-items-center rounded-lg">
+      <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-pink-500">02</div>
+    </div>
+    <div class="bg-pink-800 grid place-items-center rounded-lg">
+      <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-pink-500">03</div>
+    </div>
+    <div class="bg-pink-800 grid place-items-center rounded-lg">
+      <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-pink-500">04</div>
+    </div>
+    <div class="bg-pink-800 grid place-items-center rounded-lg">
+      <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-pink-500">05</div>
+    </div>
+    <div class="bg-pink-800 grid place-items-center rounded-lg">
+      <div class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-pink-500">06</div>
+    </div>
+  </div>
+</div>
+
+```html
+<div class="grid grid-cols-3 gap-4 place-items-center h-56 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+  <div>04</div>
+  <div>05</div>
+  <div>06</div>
+</div>
+```

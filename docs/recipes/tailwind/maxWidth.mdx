@@ -1,0 +1,52 @@
+### max-w-{size}
+<div class="flex flex-col space-y-4 place-items-center p-8">
+  <div class="bg-orange-700 p-4 max-w-xs text-white w-full text-center">max-w-xs (320px)</div>
+  <div class="bg-orange-700 p-4 max-w-sm text-white w-full text-center">max-w-sm (384px)</div>
+  <div class="bg-orange-700 p-4 max-w-md text-white w-full text-center">max-w-md (448px)</div>
+  <div class="bg-orange-700 p-4 max-w-lg text-white w-full text-center">max-w-lg (512px)</div>
+  <div class="bg-orange-700 p-4 max-w-xl text-white w-full text-center">max-w-xl (576px)</div>
+  <div class="bg-orange-700 p-4 max-w-2xl text-white w-full text-center">max-w-2xl (672px)</div>
+  <div class="bg-orange-700 p-4 max-w-3xl text-white w-full text-center">max-w-3xl (768px)</div>
+  <div class="bg-orange-700 p-4 max-w-4xl text-white w-full text-center">max-w-4xl (896px)</div>
+  <div class="bg-orange-700 p-4 max-w-5xl text-white w-full text-center">max-w-5xl (1024px)</div>
+  <div class="bg-orange-700 p-4 max-w-6xl text-white w-full text-center">max-w-6xl (1152px)</div>
+  <div class="bg-orange-700 p-4 max-w-7xl text-white w-full text-center">max-w-7xl (1280px)</div>
+</div>
+
+### max-w-prose
+The `max-w-prose` utility gives an element a max-width optimized for readability and adapts based on the font size.
+
+<div class="space-y-8 bg-stone-200 p-8">
+  <div>
+    <span class="font-medium text-sm text-slate-500 font-mono mb-3">text-sm</span>
+    <div class="max-w-prose text-sm font-medium text-slate-900 dark:text-slate-200">
+      <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+    </div>
+  </div>
+  <div>
+    <span class="font-medium text-sm text-slate-500 font-mono mb-3">text-base</span>
+    <div class="max-w-prose text-base font-medium text-slate-900 dark:text-slate-200">
+      <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+    </div>
+  </div>
+  <div>
+    <span class="font-medium text-sm text-slate-500 font-mono mb-3">text-xl</span>
+    <div class="max-w-prose text-xl font-medium text-slate-900 dark:text-slate-200">
+      <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+    </div>
+  </div>
+</div>
+
+```html
+<div class="text-sm max-w-prose ...">
+  <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+</div>
+
+<div class="text-base max-w-prose ...">
+  <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+</div>
+
+<div class="text-xl max-w-prose ...">
+  <p>Oh yeah. It's the best part. It's crunchy, it's explosive, it's where the muffin breaks free of the pan and sort of does it's own thing. I'll tell you. That's a million dollar idea right there. Just sell the tops.</p>
+</div>
+```
